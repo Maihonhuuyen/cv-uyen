@@ -1,0 +1,103 @@
+/* Font mặc định */
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Page container */
+.page-container {
+    max-width: 1400px;
+    margin-top: 20px;
+}
+
+/* Avatar + khung tên */
+.profile-card {}
+.profile-img-container {
+    position: relative;
+}
+.profile-img {
+    width: 100%;
+    height: 250px;      
+    object-fit: cover;  
+    background: #eee;   
+}
+
+.profile-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 12px;
+    color: black;
+}
+
+/* Icon teal */
+.icon-teal {
+    color: teal;
+}
+
+/* Tiêu đề từng mục */
+.section-title {
+    font-size: 20px;
+}
+
+.box-title {
+    padding: 16px 0;
+    color: #555;
+}
+
+.icon-xxlarge {
+    font-size: 40px !important;
+}
+
+/* Progress bar (Skills) */
+.progress-bar {
+    background: #ddd;
+    border-radius: 20px;
+    height: 22px;
+    margin-bottom: 10px;
+}
+.progress-bar div {
+    background: teal;
+    height: 100%;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    line-height: 22px;
+    font-size: 13px;
+}
+
+/* Language bar */
+.lang-bar {
+    background: #ddd;
+    height: 24px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.lang-bar div {
+    background: teal;
+    height: 24px;
+    border-radius: 20px;
+}
+
+/* Date */
+.date {
+    color: teal;
+    font-weight: bold;
+}
+
+/* Current Tag */
+.tag-current {
+    background: teal;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 10px;
+}
+
+/* Nội dung box */
+.content-box {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer p {
+    margin: 8px 0;
+}
